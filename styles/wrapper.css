@@ -10,22 +10,22 @@
   border-radius: 8px;
 }
 
-.title-text {
-  color: #43affc;
-  font-weight: 500;
-  font-size: 18px;
-  padding: 12px;
-  margin-left: 16px;
-}
-
 .title-text-section {
   box-shadow: 0 4px 2px -2px rgb(206, 206, 206);
 }
 
+.title-text {
+  color: #43affc;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 18px 12px;
+  margin-left: 14px;
+}
+
 .input-section {
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgb(180, 180, 180);
   width: 310px;
   margin-left: auto;
@@ -33,25 +33,44 @@
 }
 
 #input-city-name {
+  text-align: center;
   font-size: 14px;
   width: 300px;
   padding-top: 11px;
   padding-bottom: 11px;
   margin-left: auto;
   margin-right: auto;
-  border-style: solid;
+  border: 1px solid rgb(180, 180, 180);
   border-radius: 8px;
+}
+
+#input-city-name:focus {
+  outline: 1px solid #43affc;
 }
 
 .button-section {
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .get-location-button {
   width: 310px;
   height: 45px;
+  border: none;
+  border-radius: 8px;
+  background-color: #43affc;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.get-location-button:hover {
+  opacity: 0.85;
+}
+
+.get-location-button:active {
+  opacity: 0.95;
 }
 
 .or-text {
@@ -59,8 +78,8 @@
   text-align: center;
   color: rgb(180, 180, 180);
   background-color: white;
-  bottom: 76px;
+  bottom: 82px;
+  left: 158px;
   width: 40px;
   height: 20px;
-  left: 146px;
 }
