@@ -1,9 +1,4 @@
 body {
-  margin: 0;
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  font-family: Roboto, Arial;
+  background-color: #43affc;
 }

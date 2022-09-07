@@ -1,0 +1,66 @@
+.wrapper-first {
+  background-color: white;
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.title-text {
+  color: #43affc;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+  margin-left: 16px;
+}
+
+.title-text-section {
+  box-shadow: 0 4px 2px -2px rgb(206, 206, 206);
+}
+
+.input-section {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#input-city-name {
+  font-size: 14px;
+  width: 300px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.button-section {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.get-location-button {
+  width: 310px;
+  height: 45px;
+}
+
+.or-text {
+  position: absolute;
+  text-align: center;
+  color: rgb(180, 180, 180);
+  background-color: white;
+  bottom: 76px;
+  width: 40px;
+  height: 20px;
+  left: 146px;
+}
