@@ -17,11 +17,21 @@
     />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/wrapper.css" />
+    <link rel="stylesheet" href="styles/inputSection.css" />
+    <link rel="stylesheet" href="styles/outputSection.css" />
   </head>
   <body>
-    <div class="wrapper-first">
+    <div class="wrapper">
+      <!-- input section -->
+
       <div class="title-text-section">
         <div class="title-text">Weather App</div>
+      </div>
+      <div class="notification-container-loading">
+        Getting weather details...
+      </div>
+      <div class="notification-container-error">
+        (input.value) isn't a valid city name
       </div>
       <div class="input-section">
         <input id="input-city-name" type="text" placeholder="Enter city name" />
@@ -30,8 +40,29 @@
       <div class="button-section">
         <button class="get-location-button">Get Device Location</button>
       </div>
-    </div>
 
+      <!-- weather section -->
+
+      <div class="main-weather-conatiner">
+        <div class="weather-info">
+          <img class="cloud-image" src="weatherIcons/storm.svg">
+          <div class="temp">19&deg;C</div>
+          <div class="cloud-description">Thunderstorm</div>
+          <div class="location">
+            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+            Tokyo, Japan
+          </div>
+        </div>
+        <div class="weather-info-footer">
+          <div class="temp-footer">
+
+          </div>
+          <div class="humidity-footer">
+            
+          </div>
+        </div>
+      </div>
+      
     <script src="scripts/script.js"></script>
   </body>
 </html>
