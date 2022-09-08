@@ -22,30 +22,32 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- input section -->
+      <section class="input">
+        <div class="title-text-section">
+          <div class="title-text">Weather App</div>
+        </div>
+        <div class="notification-container-loading">
+          Getting weather details...
+        </div>
+        <div class="notification-container-error">
+          input isn't a valid city name
+        </div>
+        <div class="input-section">
+          <input
+            id="input-city-name"
+            type="text"
+            placeholder="Enter city name"
+          />
+        </div>
+        <div class="or-text">or</div>
+        <div class="button-section">
+          <button class="get-location-button">Get Device Location</button>
+        </div>
+      </section>
 
-      <div class="title-text-section">
-        <div class="title-text">Weather App</div>
-      </div>
-      <div class="notification-container-loading">
-        Getting weather details...
-      </div>
-      <div class="notification-container-error">
-        (input.value) isn't a valid city name
-      </div>
-      <div class="input-section">
-        <input id="input-city-name" type="text" placeholder="Enter city name" />
-      </div>
-      <div class="or-text">or</div>
-      <div class="button-section">
-        <button class="get-location-button">Get Device Location</button>
-      </div>
-
-      <!-- weather section -->
-
-      <div class="main-weather-conatiner">
+      <section class="main-weather-conatiner">
         <div class="weather-info">
-          <img class="cloud-image" src="weatherIcons/storm.svg">
+          <img class="cloud-image" src="weatherIcons/storm.svg" />
           <div class="temp">19&deg;C</div>
           <div class="cloud-description">Thunderstorm</div>
           <div class="location">
@@ -54,15 +56,11 @@
           </div>
         </div>
         <div class="weather-info-footer">
-          <div class="temp-footer">
-
-          </div>
-          <div class="humidity-footer">
-            
-          </div>
+          <div class="temp-footer"></div>
+          <div class="humidity-footer"></div>
         </div>
-      </div>
-      
+      </section>
+    </div>
     <script src="scripts/script.js"></script>
   </body>
 </html>
