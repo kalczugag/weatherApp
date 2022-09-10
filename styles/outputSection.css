@@ -1,10 +1,5 @@
 /* display none on weather-info & weather-info-footer */
 
-.main-weather-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .weather-info {
   display: none;
   flex-direction: column;
