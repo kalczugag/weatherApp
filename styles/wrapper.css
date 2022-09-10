@@ -1,7 +1,7 @@
 .wrapper {
   background-color: white;
   position: relative;
-  top: 200px;
+  top: 150px;
   display: flex;
   flex-direction: column;
   width: 360px;

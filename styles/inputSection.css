@@ -1,3 +1,6 @@
+/* display none on notification-container-loading & notification-container-error 
+& input-section & button-section & or-text */
+
 .notification-container-loading {
   display: none;
   text-align: center;
@@ -27,7 +30,7 @@
 }
 
 .input-section {
-  display: none;
+  display: block;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -54,7 +57,7 @@
 }
 
 .button-section {
-  display: none;
+  display: block;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -80,7 +83,7 @@
 }
 
 .or-text {
-  display: none;
+  display: block;
   position: absolute;
   text-align: center;
   color: rgb(180, 180, 180);

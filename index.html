@@ -29,9 +29,7 @@
         <div class="notification-container-loading">
           Getting weather details...
         </div>
-        <div class="notification-container-error">
-          input isn't a valid city name
-        </div>
+        <div class="notification-container-error"></div>
         <div class="input-section">
           <input
             id="input-city-name"
@@ -47,8 +45,8 @@
 
       <section class="main-weather-conatiner">
         <div class="weather-info">
-          <img class="cloud-image" src="weatherIcons/storm.svg" />
-          <div class="temp">19&deg;C</div>
+          <div class="cloud-image"></div>
+          <div class="temp"></div>
           <div class="cloud-description">Thunderstorm</div>
           <div class="location">
             <i class="fa fa-location-arrow" aria-hidden="true"></i>
@@ -56,8 +54,24 @@
           </div>
         </div>
         <div class="weather-info-footer">
-          <div class="temp-footer"></div>
-          <div class="humidity-footer"></div>
+          <div class="temp-footer">
+            <div class="temp-icon">
+              <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+            </div>
+            <div class="temp-description">
+              <p class="degree">20&deg;C</p>
+              <p class="tText">Feels like</p>
+            </div>
+          </div>
+          <div class="humidity-footer">
+            <div class="humidity-icon">
+              <i class="fa fa-adjust" aria-hidden="true"></i>
+            </div>
+            <div class="humidity-description">
+              <p class="humidity-percent">96%</p>
+              <p class="hText">Humidity</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

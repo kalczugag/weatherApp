@@ -1,34 +1,79 @@
+/* display none on weather-info & weather-info-footer */
+
 .main-weather-container {
   display: flex;
   flex-direction: column;
 }
 
 .weather-info {
-  display: flex;
+  display: none;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  height: 250px;
+  height: 330px;
 }
 
 .cloud-image {
-  margin-top: 20px;
-  width: 140px;
+  width: 110px;
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.cloud-description {
+  font-size: 18px;
 }
 
 .weather-info-footer {
-  display: flex;
+  display: none;
   flex-direction: row;
+  border-top: 1px solid rgb(180, 180, 180);
+  height: 55px;
 }
 
 .temp-footer {
   flex: 1;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgb(180, 180, 180);
+}
+
+.temp-description,
+.humidity-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.temp-icon,
+.humidity-icon {
+  font-size: 34px;
+  color: #43affc;
+}
+
+.temp-footer p,
+.humidity-footer p {
+  margin: 0;
+}
+
+.degree,
+.humidity-percent {
+  font-weight: 500;
+}
+
+.tText,
+.hText {
+  font-size: 14px;
 }
 
 .humidity-footer {
   flex: 1;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
