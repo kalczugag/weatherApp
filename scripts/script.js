@@ -25,7 +25,7 @@ el.addEventListener("keydown", function (event) {
     function getLocation() {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (pos) {
-          return pos.coords.latitude, pos.coords.longitude;
+          return `${pos.coords.latitude},${pos.coords.longitude}`;
         });
       } else {
         return (nError.innerHTML =
