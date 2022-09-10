@@ -16,8 +16,20 @@
 
 .title-text {
   color: #43affc;
+  display: inline-block;
   font-weight: 600;
   font-size: 18px;
   padding: 18px 12px;
-  margin-left: 14px;
+}
+
+.title-text-section i {
+  font-size: 18px;
+  color: #43affc;
+  margin-left: 5px;
+}
+
+.return-Button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
